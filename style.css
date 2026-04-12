@@ -328,6 +328,8 @@ footer {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    min-height: 180px;
+    justify-content: space-between;
 }
 
 .client-card:hover {
@@ -528,6 +530,7 @@ footer {
 
     .client-card {
         padding: 6px;
+        min-height: 140px;
     }
 
     .client-photo {
@@ -620,6 +623,7 @@ footer {
 
     .client-card {
         padding: 5px;
+        min-height: 130px;
     }
 
     .client-photo {
@@ -637,7 +641,7 @@ footer {
     }
 
     .video-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(3, 1fr);
         gap: 5px;
         max-width: 100%;
     }
