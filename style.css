@@ -542,35 +542,36 @@ footer {
 
     .clients-grid {
         grid-template-columns: repeat(2, 1fr);
-        gap: 8px;
+        gap: 6px;
         max-width: 100%;
+        padding: 0 5px;
     }
 
     .client-card {
-        padding: 6px;
-        min-height: 140px;
+        padding: 5px;
+        height: 160px;
     }
 
     .client-photo {
         width: 45px;
         height: 45px;
-        margin-bottom: 4px;
-    }
-
-    .client-card h3 {
-        font-size: 11px;
         margin-bottom: 3px;
     }
 
+    .client-card h3 {
+        font-size: 10px;
+        margin-bottom: 2px;
+    }
+
     .client-card p {
-        font-size: 8px;
-        margin: 2px 0 3px 0;
+        font-size: 7px;
+        margin: 1px 0 3px 0;
     }
 
     .view-link {
         margin-top: 2px;
-        font-size: 8px;
-        padding: 2px 4px;
+        font-size: 7px;
+        padding: 2px 3px;
     }
 
     .video-grid {
@@ -636,26 +637,33 @@ footer {
 
     .clients-grid {
         grid-template-columns: repeat(2, 1fr);
-        gap: 8px;
+        gap: 6px;
     }
 
     .client-card {
-        padding: 5px;
-        min-height: 130px;
+        padding: 4px;
+        height: 140px;
     }
 
     .client-photo {
-        width: 40px;
-        height: 40px;
-        margin-bottom: 3px;
+        width: 35px;
+        height: 35px;
+        margin-bottom: 2px;
     }
 
     .client-card h3 {
-        font-size: 10px;
+        font-size: 9px;
+        margin-bottom: 1px;
     }
 
     .client-card p {
-        font-size: 7px;
+        font-size: 6px;
+        margin: 1px 0 2px 0;
+    }
+
+    .view-link {
+        font-size: 6px;
+        padding: 1px 2px;
     }
 
     .video-grid {
