@@ -328,8 +328,26 @@ footer {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    min-height: 180px;
+    height: 180px;
     justify-content: space-between;
+}
+
+.client-card .client-photo {
+    flex-shrink: 0;
+}
+
+.client-card h3 {
+    flex-shrink: 0;
+}
+
+.client-card p {
+    flex: 1;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+.client-card a {
+    flex-shrink: 0;
 }
 
 .client-card:hover {
